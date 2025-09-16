@@ -22,3 +22,4 @@ INNER JOIN {{ ref('stg_raw__ship') }} AS sh
     ON s.orders_id = sh.orders_id
 GROUP BY s.orders_id, s.date_date
 ORDER BY s.orders_id DESC
+
